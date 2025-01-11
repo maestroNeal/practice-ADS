@@ -11,12 +11,17 @@ void square(int x){
     }
 
 }
-
+void strSqr(int x){
+    string row(x, '*');
+    for (int i = 0; i < x; i++){
+        cout<<row<<"\n";
+    }
+    
+}
 
 
 int main(){
     int x;
     cin >> x;
     square(x);
-  
 }

@@ -1,3 +1,6 @@
 {
-    "workbench.settings.useSplitJSON": true
+    "workbench.settings.useSplitJSON": true,
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }
